@@ -1,0 +1,398 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: arial black;
+}
+.contan{
+	width: 1100px;
+	margin: auto;
+}
+.section{
+	overflow: hidden;
+}
+.all_sciol{
+	margin-right: 5px;
+	float: right;
+}
+.header_top{
+	background: #0c0f3c;
+	height: 40px;
+}
+.header_text{
+	float: left;
+	color: white;
+	padding-top: 10px;
+}
+.header_sciol_icon{
+	float: right;
+}
+.header_top_2ndtop{
+	padding: 10px;
+    background: #f6f4f4ab;
+    height: 67px;
+    padding-top: 20px;
+}
+
+.header_sciol_icon .sciol_icon{
+	 background: white;
+	 border-radius: 100%;
+	 display: inline-block;
+	 color: black;
+	 font-size: 10px;
+	 height: 25px;
+	 width: 25px;
+	 text-align: center;
+	 line-height: 25px;
+	 margin-top: 5px;
+	 margin-right: 7px;
+}
+.new_work{
+	display: inline-block;
+	color: white;
+	font-size: 12px;
+	background: #f90707;
+    padding: 13px;
+}
+.sciol_icon{
+	margin-right: 5px;
+}
+.logo{
+	float: left;
+
+}
+.logo img{
+	width: 150px;
+	margin-top: 7px;
+	cursor: pointer;
+}
+.contact{
+	    float: right;
+    width: 220px;
+    margin: 5px;
+}
+
+.contact_icon i{
+	font-size: 35px;
+	float: left;
+	padding-left: 18px;
+	color: #ff000085;
+}
+.contact_text h3{
+	padding-left: 60px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+}
+.contact_text p{
+	padding-left: 60px;
+	font-size: 14px;
+}
+.contact_text{
+	line-height: 25px;
+}
+.maneubar{
+	float: left;
+	padding: 20px;
+}
+.maneubar ul li{
+	display: inline-block;
+
+}
+.maneubar ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	font-size: 15px;
+	font-family: Century Gothic;
+	font-weight:bold;
+	color: black;
+}
+.maneubar ul li a:hover{
+	background: #0c0f3c;
+	color: white;
+	transition: all 1s;
+}
+.menu_search{
+	float: right;
+	padding-top: 20px;
+}
+.header_section_menu{
+	height: 60px;
+}
+.menu_search input{
+    padding: 5px 20px;
+    border: none;
+   
+}
+.menu_search i{
+	margin-right: 10px;
+}
+.menu_search input:hover{
+    border: 0.5px solid darkgray;
+    background: #f2f2f2;
+    transition: all 1s;
+}
+.slide_section{
+	background-image: linear-gradient(#010a0eb5,#010a0eb5) ,url(image/work1.jpg);
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+}
+.slide_section_text h1{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 35px; 
+	color: white;
+}
+.slide_section_text p{
+	position: absolute;
+	top: 73%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 16px; 
+	color: white;
+	text-align: center;
+}
+.readmore{
+	position: absolute;
+	top: 83%;
+	left: 44.5%;
+	transform: translate(-50%, -50%);
+	font-size: 15px; 
+	color: black;
+	text-align: center;
+	padding: 15px 20px;
+	background: white;
+	font-family: arial;
+	font-weight: bold;
+	border-radius: 4px;
+}
+.gestarted{
+	position: absolute;
+	top: 83%;
+	left: 55.5%;
+	transform: translate(-50%, -50%);
+	font-size: 15px; 
+	color: white;
+	text-align: center;
+	padding: 15px 20px;
+	background: red;
+	font-family: arial;
+	font-weight: bold;
+	border-radius: 4px;	
+}
+.bottom_slide{
+	font-size: 15px; 
+	color: white;
+	text-align: center;
+	padding: 10px 0px;
+	font-family: arial;
+	font-weight: bold;
+	border-radius: 4px;
+	margin-bottom: 50px;
+}
+
+.slide_bottom_text{
+    float: right;
+    color: black;
+    padding: 15px 20px;
+    background: white;
+    width: 243px;
+    padding: 25px 15px;
+    text-align: left;
+    margin: 1px;
+    margin-top: 500px;
+    overflow: hidden;
+}
+
+.slide_bottom_icon{
+	float: left;
+	width: 6px;
+	margin-top: 7px;
+}
+.slide_bottom_right_text h4, #doing{
+	float: right;
+	width: 182px;
+	overflow: hidden;
+}
+
+.slide_bottom_icon b{
+	width: 26px;
+    height: 26px;
+    line-height: 26px;
+    background: black;
+    color: white;
+    border-radius: 100%;
+    font-size: 13px;
+    display: inline-block;
+	text-align: center;
+}
+
+.slide_bottom_right_text span{
+	font-size: 13px;
+}
+.readmore:hover{
+	background: transparent;
+	border: 1px solid red;
+	color: white;	
+	cursor: pointer;
+	transition: all 1s;
+}
+.gestarted:hover{
+	background: transparent;
+	border: 1px solid white;
+	cursor: pointer;
+	transition: all 1s;	
+}
+.slide_bottom_text:hover{
+	background: red;
+	cursor: pointer;
+	color: white;
+	transition: all 1s;
+}
+.new_work:hover{
+	background: white;
+	cursor: pointer;
+	color: black;
+	transition: all 1s;
+}
+.secend_text{
+	width: 298px;
+	color: black;
+	float: left;
+	padding: 34px;
+	text-align: center;
+}
+.secend_text i{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #777676;
+    border-radius: 100%;
+    line-height: 70px;
+    color: #777676;
+}
+.secend_text p{
+	color: #777676;
+	font-size: 13px;
+}
+.secend_text h1{
+        padding: 23px 0px 17px 0px;
+}
+.all_secend_text {
+       margin: 50px 0px; 
+       overflow: hidden;
+}
+hr{
+	border: 2px solid red;
+	width: 50px;
+}
+.image_with_text{
+	width: 510px;
+	float: left;
+}
+.image_with_text h4{
+	color: silver;
+	margin-top: 15px;
+	font-size: 13px;
+}
+.image_with_text h1{
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 5px;
+	font-size: 33px;
+}
+.image_with_text h5{
+	background: black;
+	color: #9c9c9c;
+	padding: 20px 35px;
+	width: 90px;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+.image_with_text p{
+	font-family: arial;
+	margin-top: 50px;
+}
+.image_right{
+	float: right;
+	width:520px;
+	height: 350px;
+}
+.image_right img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.section_3{
+	padding: 100px 0px;
+	background: #eef3f9;
+	height: 309px;
+	overflow: hidden;
+
+}
+.s_section{
+	padding: 50px 0px 5px 0px;
+	overflow: hidden;
+}
+#us{
+	color: red;
+}
+.l_r_icon{
+	float: right;
+	margin-top: 50px;
+}
+.l_r_icon i{
+	padding: 5px 10px;
+	background: white;
+	border-radius: 5px;
+	border: 1px solid #eef3f9;
+	color: #b6b9bd;
+}
+.image_3{
+	width: 335px;
+	height: 223px;
+	float: left;
+}
+.image_3 img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.image_3 h2{
+	font-size: 20px;
+	font-weight: normal;
+	padding: 20px 0px; 
+}
+.image_3 p{
+	font-size: 13px;
+	line-height: 20px;
+	color: darkgray;
+	text-align: justify;
+}
+.image_change{
+	margin: 0px 47px;
+}
+.text_1 b{
+	background: black;
+	padding: 5px;
+	height: 10px;
+	width: 10px;
+	line-height: 10px;
+}
+.round{
+	border: 1px solid black;
+	width:30px; 
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+	font-size:14px;
+	display: inline-block;
+}
